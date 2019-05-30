@@ -1,0 +1,121 @@
+
+/* =======================BOTONES======================*/
+
+.selcelda {
+  color: #28a745;
+  background-color: #28a745;
+  background-image: none;
+  border-color: #28a745;
+  border: none;
+  font-weight: bold;
+}
+
+.selcelda:hover {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.field-container i{
+			background-color: #eee;
+			border-radius: 4px 0 0 4px; 
+			color: #888;
+			padding: 10px 10px 11px 10px;
+			border: solid 1px #ccc;
+			/*max-height: 35px;*/
+			margin-right: -5px;
+			vertical-align: top;
+		}
+
+.field{
+			border: solid 1px #ccc;
+			border-radius: 0 4px 4px 0; 
+			padding: 10px;
+			/*width: 240px;*/
+			height: 38px;
+		}
+
+.btn{
+	/*border-radius: 3px;*/
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+	text-direction: none;
+	text-shadow; 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	
+}
+
+.btn-green{
+	color:white;
+	background-color: #ffb324;
+	margin-top: 10px;
+}
+
+.btn-green:hover{
+	background-color: #3B5A60;
+}
+
+/*.btn-green:active{
+	background-color: #29962A
+}*/
+
+/* ===================FORMULARIOS======================*/
+
+input, textarea{
+	border:0;
+	outline: none;
+	width: 60px;
+	border-radius: 5px;
+	padding-left: 0;
+}
+
+#banner .formularioingreso input[type="submit"]{
+	width: 85px;
+}
+
+.field{
+	border: solid 1px #999;
+	
+}
+
+.field-container div{
+	/*display: inline-block;
+	vertical-align: top;*/
+	margin: 0;
+	padding: 0;
+}
+
+
+.field-container {
+	/*border: solid 1px #ccc;*/
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #3B5A60;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: arial, sans-serif;
+}
+/*========================================================*/
+
+.stroke {
+    text-align:center; 
+    color: #fff;
+    /*background: #eee;*/
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #377798, 3px -3px 3px #377798, -3px 3px 3px #377798, 3px 3px 3px #377798;
+}
+
+.banner{
+    
+    background: -webkit-linear-gradient(#377798,#E3F2FD);
+    background: -moz-linear-gradient(#377798,#E3F2FD);
+    
+    }
+
+.fondo_navbar{
+    background-color: #e3f2fd;
+}

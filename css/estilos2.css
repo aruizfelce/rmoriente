@@ -1,0 +1,228 @@
+body{
+	margin:0;
+	/*position: relative;*/
+	height: 100%;
+	color: #3B5A60;
+	font-family: 'Oswald', sans-serif;
+}
+/* =======================BOTONES======================*/
+.btn{
+	border-radius: 3px;
+	display: inline-block;
+	padding: 2px 2px 2px 2px;
+	text-direction: none;
+	text-shadow; 0 1px 0 rgba(255,255,255,0.3);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+	
+}
+
+.btn-green{
+	color:white;
+	background-color: #ffb324;
+	margin-top: 10px;
+}
+
+.btn-green:hover{
+	background-color: #3B5A60;
+}
+
+/*.btn-green:active{
+	background-color: #29962A
+}*/
+
+/* ===================FORMULARIOS======================*/
+
+input, textarea{
+	border:0;
+	outline: none;
+	width: 60px;
+	border-radius: 5px;
+	padding-left: 0;
+}
+
+#banner .formularioingreso input[type="submit"]{
+	width: 85px;
+}
+
+.field{
+	border: solid 1px #999;
+	
+}
+
+.field-container div{
+	/*display: inline-block;
+	vertical-align: top;*/
+	margin: 0;
+	padding: 0;
+}
+
+
+.field-container {
+	/*border: solid 1px #ccc;*/
+	padding: 0;
+	margin: 0;
+}
+
+a{
+	color: #3B5A60;
+	font-family: 'Oswald', sans-serif;
+}
+/*========================================================*/
+
+#contenedor{
+	border-right: 1px solid lightyellow;
+	border-left: 1px solid lightyellow;
+	width: 98%;
+	margin: auto;
+	background: white;	
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
+
+#banner{
+	width: 100%;
+	height: 110px;
+	background: -webkit-linear-gradient(orange, lightyellow);
+	border: 2pt;
+	margin:0 auto;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	
+}
+
+#banner .logo{
+	padding-left:5px;
+	padding-top:0;
+	opacity: 0.7;
+}
+
+#banner .formularioingreso{
+	width: 100px;
+	padding:0;
+	height: 110px;
+	
+	
+}
+
+
+#menu {
+	margin-top: 30px;
+	padding: 0;
+	list-style: none;
+	width: 13%;
+	border-bottom: 1px  gray;
+	font-size: 0.9;
+		
+}
+
+/*==========================SLIDER===============================*/
+.slider {
+	width: 64%;
+	/*float: left;*/
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	animation: cambio 20s infinite linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*=======================ESTRUCTURA==============================*/
+
+#menu2 {
+	margin-top: 30px;
+	padding: 0;
+	list-style: none;
+	width: 13%;
+	border-bottom: 1px  gray;
+	font-size: 0.9;
+		
+}
+
+#menu a{
+	/*color: #3B5A60;*/
+	text-decoration: none;
+	border: 1px  gray;
+	display: block; /*convierte in inline en block, es decir con espacios en los costados)*/
+	background-color: lightyellow;
+	padding: 7px 5px 7px 20px;
+	border-bottom: none;
+	
+}
+
+
+#menu2 a{
+	/*color: #3B5A60;*/
+	text-decoration: none;
+	border: 1px  gray;
+	display: block; /* convierte in inline en block, es decir con espacios en los costados)*/
+	background-color: lightyellow;
+	padding: 7px 5px 7px 20px;
+	border-bottom: none;
+	
+}
+
+#menu a:hover {
+	transform:scale(1.2,1.2);
+	font-weight: bold;
+	border-style: groove;
+	border-color: #F39A34;
+	/*font-size: 1.1em;*/
+	color:#F39A34;
+	/*background: -webkit-linear-gradient(orange, lightyellow);*/
+	background-position: 3px 50%; /* izquierda y derecha 3 px arriba y abajo 50%*/
+}
+
+
+#menu2 a:hover {
+	transform:scale(1.2,1.2);
+	font-weight: bold;
+	border-style: groove;
+	border-color: #F39A34;
+	/*font-size: 1.1em;*/
+	color:#F39A34;
+	/*background: -webkit-linear-gradient(orange, lightyellow);*/
+	background-position: 3px 50%; /* izquierda y derecha 3 px arriba y abajo 50%*/
+}
+
+/* ================================== PIE ===========================*/
+#contacto{
+	padding-top: 0;
+	width: 100%;
+	margin-top:2px;
+	background-color: lightyellow;
+	/*clear: both;*/
+	text-align: center;
+	font-size: 0.8em;
+}
+
